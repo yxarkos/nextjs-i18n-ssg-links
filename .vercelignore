@@ -1,0 +1,9 @@
+.vscode
+.vercel
+node_modules
+*.md
+.gitignore
+.vercelignore
+yarn-error.log
+yarn-debug.log
+yarn-debug*.log
