@@ -1,19 +1,30 @@
 import React from 'react'
 import Link from 'next/link'
 
-export default function Page({ locale, slugs, links }) {
+const links = [
+  { href: '/' },
+  { href: '/page1' },
+  { href: '/page2' },
+  { href: '/page3' },
+]
+
+export default function Page({ locale, slugs }) {
   return (
     <div>
-      {links.map(({ href }, index) => (
-        <div key={index}>
-          <Link href={href}>
-            <a href={href.toString()}>Link to &quot;{href.toString()}&quot;</a>
-          </Link>
-        </div>
-      ))}
+      <ul>
+        {links.map(({ href }, index) => (
+          <li key={index}>
+            <Link href={href}>
+              <a href={href.toString()}>Link to &quot;{href.toString()}&quot;</a>
+            </Link>
+          </li>
+        ))}
+      </ul>
 
-      <div>Locale: {locale}</div>
-      <div>Slug: {slugs.join(', ')}</div>
+      <p>
+        Locale: {locale}<br />
+        Slugs: {slugs}
+      </p>
     </div>
   )
 }
