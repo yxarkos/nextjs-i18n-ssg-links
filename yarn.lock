@@ -59,20 +59,20 @@
   resolved "https://registry.yarnpkg.com/@hapi/hoek/-/hoek-9.1.1.tgz#9daf5745156fd84b8e9889a2dc721f0c58e894aa"
   integrity sha512-CAEbWH7OIur6jEOzaai83jq3FmKmv4PmX1JYfs9IrYcGEVI/lyL1EXJGCj7eFVJ0bg5QR8LMxBlEtA+xKiLpFw==
 
-"@next/env@10.0.9-canary.2":
-  version "10.0.9-canary.2"
-  resolved "https://registry.yarnpkg.com/@next/env/-/env-10.0.9-canary.2.tgz#7c42c0fc8b8cf3eec630fe02fc0174f56de13835"
-  integrity sha512-H6w7kJY+aQisKmghz6godMRGDon8VxzhsbLa6jUMSGcQdmrd9XcnixOI1/5C4myKK+KNfRHMalh2PREy5jkBNA==
+"@next/env@10.0.9-canary.3":
+  version "10.0.9-canary.3"
+  resolved "https://registry.yarnpkg.com/@next/env/-/env-10.0.9-canary.3.tgz#b7aff5183cbeeac741fdf297a1e0662c2825f935"
+  integrity sha512-cnKmrE3qM7nWCb1cFzG/NtUP+sfZ9KhwGYgGPA0kLF3nE4g8ozQ1k83daI4Dx27OfjNoMt/gD5pVoFbx5KVaRw==
 
-"@next/polyfill-module@10.0.9-canary.2":
-  version "10.0.9-canary.2"
-  resolved "https://registry.yarnpkg.com/@next/polyfill-module/-/polyfill-module-10.0.9-canary.2.tgz#52d55b62e673cfd2e344098ba47ff8c1d1a4cdf7"
-  integrity sha512-MnOyjPvzJ4g94RIUB3HnZqLOrkTdVvDeVrh8/XJ1Iih+J0I7p+1Pz6lMop7DCcf4OZPn0cgCD0Pq2iIxatVS1w==
+"@next/polyfill-module@10.0.9-canary.3":
+  version "10.0.9-canary.3"
+  resolved "https://registry.yarnpkg.com/@next/polyfill-module/-/polyfill-module-10.0.9-canary.3.tgz#a1b9e025a79d5342ca5960ccba024d1017db8390"
+  integrity sha512-8pb4RTUewyygjgSkTSixE1wHHsc+7bbohKwj7dt29hk1tZt79cZHSKFRBsGlhb+K/GtrnxsAY47aKz3UOTrhCQ==
 
-"@next/react-dev-overlay@10.0.9-canary.2":
-  version "10.0.9-canary.2"
-  resolved "https://registry.yarnpkg.com/@next/react-dev-overlay/-/react-dev-overlay-10.0.9-canary.2.tgz#4e3e5adbf34d62180d0e4a8f2f8b92a98c91c878"
-  integrity sha512-ARAiOORau6bMswgt8yw0kki+hDuZedofVQfctOSL8+jMUXfLswdbauw/1LZMaA+c316qsn7pL3OEG7Lg4v5fNg==
+"@next/react-dev-overlay@10.0.9-canary.3":
+  version "10.0.9-canary.3"
+  resolved "https://registry.yarnpkg.com/@next/react-dev-overlay/-/react-dev-overlay-10.0.9-canary.3.tgz#6a9098dd9606d1556fe491162c7ab0f86378b45d"
+  integrity sha512-prummKRuNiIxg0oKkyS/BgsZYlHLNclqUZ/tVpIEjssaaI8HjHlgvoRxyXGs3d8MBD3CLkCePN3zNkc9hyHP5Q==
   dependencies:
     "@babel/code-frame" "7.12.11"
     anser "1.4.9"
@@ -86,10 +86,10 @@
     stacktrace-parser "0.1.10"
     strip-ansi "6.0.0"
 
-"@next/react-refresh-utils@10.0.9-canary.2":
-  version "10.0.9-canary.2"
-  resolved "https://registry.yarnpkg.com/@next/react-refresh-utils/-/react-refresh-utils-10.0.9-canary.2.tgz#68569301203285f236b3777342accd006fd12bdd"
-  integrity sha512-yGKeW6VKIsJQe7ZiDONOcMvc0FK+FcqABfICY35ssEuAY+2djFVQwN6lcuAlUxdaMaO99jPUGuiuEGycDKRfBw==
+"@next/react-refresh-utils@10.0.9-canary.3":
+  version "10.0.9-canary.3"
+  resolved "https://registry.yarnpkg.com/@next/react-refresh-utils/-/react-refresh-utils-10.0.9-canary.3.tgz#8e05cd6596fe8d1d3bb232d5dfc1f68e0ad29164"
+  integrity sha512-1O+NLINhnIy+ajw3sTAxacFOIlMpQkpP+R2AS8ynggIRQp4Rt4NDailmRQvDljz0Q/1e+zx0qRAVyoRTALXKvw==
 
 "@opentelemetry/api@0.14.0":
   version "0.14.0"
@@ -869,17 +869,17 @@ native-url@0.3.4:
   dependencies:
     querystring "^0.2.0"
 
-next@^10.0.9-canary.0:
-  version "10.0.9-canary.2"
-  resolved "https://registry.yarnpkg.com/next/-/next-10.0.9-canary.2.tgz#1521db0fc9eecf62d50ea17c753286c95bca67d8"
-  integrity sha512-XwGvLfAzjTh8lN5l4P5c0jSqqDpfn7pCs3HnatiZM2OikPFBHm6LMkmm6ANIqY/0K3aTzUej5aFJo8KLV1wE3w==
+next@^10.0.9-canary.3:
+  version "10.0.9-canary.3"
+  resolved "https://registry.yarnpkg.com/next/-/next-10.0.9-canary.3.tgz#dd2b03a6aad502e92f4414c8848de0966a311040"
+  integrity sha512-N5yzb8x16Bl6ZIkV95reIdLaqOOGoMQxhnQj5pdADQnB5D5mTUseYMnjeHgnj06FcoSawCA3i5QlEy7ZCrms7g==
   dependencies:
     "@babel/runtime" "7.12.5"
     "@hapi/accept" "5.0.1"
-    "@next/env" "10.0.9-canary.2"
-    "@next/polyfill-module" "10.0.9-canary.2"
-    "@next/react-dev-overlay" "10.0.9-canary.2"
-    "@next/react-refresh-utils" "10.0.9-canary.2"
+    "@next/env" "10.0.9-canary.3"
+    "@next/polyfill-module" "10.0.9-canary.3"
+    "@next/react-dev-overlay" "10.0.9-canary.3"
+    "@next/react-refresh-utils" "10.0.9-canary.3"
     "@opentelemetry/api" "0.14.0"
     ast-types "0.13.2"
     browserslist "4.16.1"

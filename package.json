@@ -1,14 +1,13 @@
 {
-  "name": "@link-test/next",
+  "name": "@yxarkos/nextjs-i18n-ssg-links",
   "version": "1.0.0",
-  "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start"
   },
   "dependencies": {
-    "next": "^10.0.9-canary.0",
+    "next": "^10.0.9-canary.3",
     "nprogress": "^0.2.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
