@@ -1,28 +1,33 @@
-/* eslint-disable @typescript-eslint/no-explicit-any */
 import React, { useEffect } from 'react'
-import { AppProps } from 'next/app'
 import { useRouter } from 'next/router'
+import NProgress from 'nprogress'
 
-function CustomApp({ Component, pageProps }: AppProps) {
+function CustomApp({ Component, pageProps }) {
   const router = useRouter()
 
   useEffect(() => {
-    const handleRouteChangeStart = (url: any, options: any) => {
+    const handleRouteChangeStart = (url, options) => {
       console.log('routeChangeStart', url, options)
+
+      NProgress.start()
     }
-    const handleRouteChangeComplete = (url: any, options: any) => {
+    const handleRouteChangeComplete = (url, options) => {
       console.log('routeChangeComplete', url, options)
+
+      NProgress.done()
     }
-    const handleRouteChangeError = (err: any, url: any, options: any) => {
+    const handleRouteChangeError = (err, url, options) => {
       console.log('routeChangeError', err, url, options)
+
+      NProgress.done()
     }
-    const handleHistoryChange = (url: any, options: any) => {
+    const handleHistoryChange = (url, options) => {
       console.log('beforeHistoryChange', url, options)
     }
-    const handleHashChangeStart = (url: any, options: any) => {
+    const handleHashChangeStart = (url, options) => {
       console.log('hashChangeStart', url, options)
     }
-    const handleHashChangeComplete = (url: any, options: any) => {
+    const handleHashChangeComplete = (url, options) => {
       console.log('hashChangeComplete', url, options)
     }
 

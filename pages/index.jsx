@@ -1,6 +1,4 @@
-import { GetStaticPropsContext } from 'next'
-
-import Page from '@link-test/components/Page'
+import Page from '../components/Page'
 
 export const links = [
   { href: '/' },
@@ -9,10 +7,10 @@ export const links = [
   { href: '/page3' },
 ]
 
-export async function getStaticProps({ locale }: GetStaticPropsContext) {
+export async function getStaticProps({ locale }) {
   return {
     props: {
-      locale,
+      locale: locale ?? '-',
       links,
       slugs: [],
     },
